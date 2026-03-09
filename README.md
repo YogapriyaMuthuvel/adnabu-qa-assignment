@@ -36,15 +36,13 @@ The following scenario is automated:
 3. Search for a product  
 4. Select the product from search results  
 5. Click **Add to Cart**  
-6. Verify that the product is added to the cart  
+6. Verify that the product is added to the cart
+
+### Test Execution Report
+
+You can view the automated test execution report here: https://yogapriyamuthuvel.github.io/adnabu-qa-assignment/reports/report.html?sort=result
 
 ---
-## Test Execution Report
-
-You can view the automated test execution report here:
-
-**HTML Report:**  
-https://yogapriyamuthuvel.github.io/adnabu-qa-assignment/reports/report.html?sort=result
 
 ## Tech Stack
 
