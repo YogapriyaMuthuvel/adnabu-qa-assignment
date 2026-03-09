@@ -19,7 +19,7 @@ The sheet includes:
 - Negative scenarios
 - Edge cases
 
-Google Sheet link : https://docs.google.com/spreadsheets/d/1EI4ETOqZLC0ZFiJhPfqXk-Sx19wnWmisHb0adSjOJqg/edit?usp=sharing
+Test cases sheet link : https://docs.google.com/spreadsheets/d/1EI4ETOqZLC0ZFiJhPfqXk-Sx19wnWmisHb0adSjOJqg/edit?usp=sharing
 
 ---
 
