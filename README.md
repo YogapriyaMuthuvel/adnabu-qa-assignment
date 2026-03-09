@@ -39,6 +39,12 @@ The following scenario is automated:
 6. Verify that the product is added to the cart  
 
 ---
+## Test Execution Report
+
+You can view the automated test execution report here:
+
+**HTML Report:**  
+https://yogapriyamuthuvel.github.io/adnabu-qa-assignment/reports/report.html?sort=result
 
 ## Tech Stack
 
