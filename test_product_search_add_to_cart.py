@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class TestAdNabuStore:
 
-     # Setup browser  
+    # Setup browser  
   def setup_method(self):
     self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     self.driver.maximize_window()
@@ -52,7 +52,7 @@ class TestAdNabuStore:
     cart_drawer = wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@aria-label='Your cart']")))
     assert cart_drawer.is_displayed()
     print("Product successfully added to cart")
-    
+
     # Close browser
   def teardown_method(self, method):
     self.driver.quit()
