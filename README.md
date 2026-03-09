@@ -19,7 +19,7 @@ The sheet includes:
 - Negative scenarios
 - Edge cases
 
-The Google Sheet link has been shared in the assignment submission email.
+Google Sheet link : https://docs.google.com/spreadsheets/d/1EI4ETOqZLC0ZFiJhPfqXk-Sx19wnWmisHb0adSjOJqg/edit?usp=sharing
 
 ---
 
