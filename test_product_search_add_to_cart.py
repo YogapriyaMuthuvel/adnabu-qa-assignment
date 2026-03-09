@@ -21,19 +21,19 @@ class TestAdNabuStore:
 
     password_field = wait.until(EC.presence_of_element_located((By.ID,"password")))
     password_field.send_keys("AdNabuQA")
-
+#Click on enter button
     enter_button = driver.find_element(By.XPATH,"//button[@type='submit']")
     enter_button.click()
-
+#Click search icon
     search_icon = wait.until(EC.element_to_be_clickable((By.XPATH,"//summary[contains(@class,'search')]")))
     search_icon.click()
-
+#Search the product in search field
     search_box = wait.until(EC.presence_of_element_located((By.NAME,"q")))
     search_box.send_keys("snowboard")
-
+#Click search button
     search_button = driver.find_element(By.CSS_SELECTOR,".search__button.field__button")
     search_button.click()
-
+#Click the first product
     products = wait.until(EC.presence_of_all_elements_located((By.XPATH,"//a[contains(@href,'/products')]")))
     first_product = products[0]
     driver.execute_script("arguments[0].scrollIntoView({block:'center'});",first_product)
